@@ -9,6 +9,8 @@ gem 'sqlite3', group: [:development, :test]
 group :production do
   gem 'rails_12factor'
 end
+# Bootstrap sass
+gem 'bootstrap-sass', '~> 3.3.6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
