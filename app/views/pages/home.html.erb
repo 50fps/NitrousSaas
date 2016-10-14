@@ -3,10 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <title>Home Page</title>
-    <style>
-      html {font-family:Verdana}
-      body {margin:0px;position:relative;}
-    </style>
   </head>
   <body>
 
@@ -22,11 +18,18 @@
           <%= link_to 'SaaS', root_path, class: 'navbar-brand' %> </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "About", "#" %></li>
+            <li><%= link_to "About", about_path %></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
 
+    <h1 class="bigface">Home</h1>
+
+    <style>
+      html {font-family:Verdana}
+      body {margin:0px;position:relative;}
+      h1.bigface {text-align:center;font-size:150px;color:rgb(125,125,125);margin:calc(50% - 550px) calc(50% - 150px)}
+    </style>
   </body>
 </html>
