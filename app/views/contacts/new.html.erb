@@ -21,6 +21,10 @@
       </div>
     </nav>
 
+      <% flash.each do |key, value| %>
+        <%= content_tag :div, value, class: "alert alert-#{key}" %>
+      <% end %>
+
 <div class="row">
   <div class="col-md-4 col-md-offset-4">
     <div class="well">
