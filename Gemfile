@@ -7,6 +7,7 @@ gem 'rails', '4.2.6'
 gem 'sqlite3', group: [:development, :test]
 #Heroku rails_12factor for server conn
 group :production do
+  gem 'pg'
   gem 'rails_12factor'
 end
 # Use SCSS for stylesheets
@@ -52,4 +53,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+#Devise is a flexible authentication solution for Rails based on Warden
+gem 'devise', '4.0'
 
