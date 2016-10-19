@@ -38,8 +38,7 @@ gem 'devise', '4.0'
 # Handle Credit Card Information
 gem 'stripe', '1.55.0'
 
-# Use Figaro to hide secret keys
-#Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+# Use Figaro to hide secret keys, Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem 'figaro', '1.1.1'
 
 # Use ActiveModel has_secure_password
