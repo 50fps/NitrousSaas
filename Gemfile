@@ -26,11 +26,21 @@ gem 'coffee-rails', '~> 4.1.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+#gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+#Devise is a flexible authentication solution for Rails based on Warden
+gem 'devise', '4.0'
+
+# Handle Credit Card Information
+gem 'stripe', '1.55.0'
+
+# Use Figaro to hide secret keys
+#Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+gem 'figaro', '1.1.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -53,7 +63,4 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
-#Devise is a flexible authentication solution for Rails based on Warden
-gem 'devise', '4.0'
 
