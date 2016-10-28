@@ -31,8 +31,10 @@
     </div>
   </div>
   <% if current_user %>
-    <%= link_to "Create Profile", new_user_profile_path(current_user)%>
+    <%= link_to "Create Profile", new_user_profile_path(current_user), style: "color:white;font-size:24px;margin:2px" %>
   <% end %>
+
+  <% content_tag :div, current_user, style: "color:white;font-size:24px;margin:2px" %>
 
     <style>
       html {font-family:Verdana}
