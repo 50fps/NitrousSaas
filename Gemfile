@@ -43,6 +43,10 @@ gem 'figaro', '1.1.1'
 
 # Easy Upload Management
 gem 'paperclip', '4.3.6'
+
+#Auto Prefix Css
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

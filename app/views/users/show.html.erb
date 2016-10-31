@@ -1,6 +1,6 @@
 <div class="row" style="display:inline-flex;width:100%">
   <div class="row-md-3" style="width:20%">
-    <%= image_tag @user.profile.avatar.url %>
+    <%= image_tag @user.profile.avatar.url, class: 'user-show-avatar' %>
   </div>
   <div class="row-md-9" style="width:80%">
     <h1><%= @user.profile.first_name %> <%= @user.profile.last_name %></h1>
