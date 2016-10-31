@@ -41,6 +41,8 @@ gem 'stripe', '1.55.0'
 # Use Figaro to hide secret keys, Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem 'figaro', '1.1.1'
 
+# Easy Upload Management
+gem 'paperclip', '4.3.6'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
