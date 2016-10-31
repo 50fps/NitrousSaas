@@ -3,8 +3,8 @@ class ProfilesController < ApplicationController
   def new
     # new user profile form
     @user = User.find(params[:user_id]) # find logged in user
-    @profile = @user.build_profile
-    # Build Profile is a special function that we can use through db associations and routes:
+    @profile = Profile.new
+    # Build Profile is a special function that we can use through db associations and routes
   end
 
   def create
@@ -18,6 +18,9 @@ class ProfilesController < ApplicationController
       render action: :new
       # redirect user to the new controller
     end
+  end
+  
+  def show
   end
 
   def edit
